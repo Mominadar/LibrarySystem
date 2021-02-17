@@ -29,12 +29,12 @@ else
 
 
 
-  $host="localhost";
+  $host="remotemysql.com";
   $port=3306;
   $socket="";
-  $user="root";
-  $password="library";
-  $dbname="librarymanagementsystem";
+  $user="sLNIZ77zSi";
+  $password="mvTko0S5qp";
+  $dbname="sLNIZ77zSi";
   $con = new PDO("mysql:host={$host};port={$port};dbname={$dbname}", $user, $password);
   $sql = "SELECT isbn,title,book_year,au_id,published_language,rack_id FROM book where isbn='$book'";
   $stmt= $con->prepare($sql);

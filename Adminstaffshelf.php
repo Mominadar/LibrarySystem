@@ -3,12 +3,12 @@
 if(isset($_POST['dsubmit']) )
 {
   
-  $host="localhost";
+  $host="remotemysql.com";
   $port=3306;
   $socket="";
-  $user="root";
-  $password="library";
-  $dbname="librarymanagementsystem";
+  $user="sLNIZ77zSi";
+  $password="mvTko0S5qp";
+  $dbname="sLNIZ77zSi";
 
   try {
       $con = new PDO("mysql:host={$host};port={$port};dbname={$dbname}", $user, $password);
@@ -34,12 +34,12 @@ if(isset($_POST['dsubmit']) )
 if(isset($_POST['wsubmit']) )
 {
   
-  $host="localhost";
+  $host="remotemysql.com";
   $port=3306;
   $socket="";
-  $user="root";
-  $password="library";
-  $dbname="librarymanagementsystem";
+  $user="sLNIZ77zSi";
+  $password="mvTko0S5qp";
+  $dbname="sLNIZ77zSi";
 
   try {
       $con = new PDO("mysql:host={$host};port={$port};dbname={$dbname}", $user, $password);

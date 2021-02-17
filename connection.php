@@ -7,12 +7,12 @@ if(!isset($_SESSION['user']))
    header( "Refresh:1; url=homelogin.php", true, 303);
 
 }
-$host="localhost";
+$host="remotemysql.com";
 $port=3306;
 $socket="";
-$user="root";
-$password="library";
-$dbname="librarymanagementsystem";
+$user="sLNIZ77zSi";
+$password="mvTko0S5qp";
+$dbname="sLNIZ77zSi";
 
 try {
    $con = new PDO("mysql:host={$host};port={$port};dbname={$dbname}", $user, $password);

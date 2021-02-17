@@ -4,12 +4,12 @@
 
 <?php
 session_start();
-$host="localhost";
+$host="remotemysql.com";
 $port=3306;
 $socket="";
-$user="root";
-$password="library";
-$dbname="librarymanagementsystem";
+$user="sLNIZ77zSi";
+$password="mvTko0S5qp";
+$dbname="sLNIZ77zSi";
 $con = new PDO("mysql:host={$host};port={$port};dbname={$dbname}", $user, $password);
 $b = $_SESSION["user"];
 $sql = "SELECT s_id FROM staff WHERE login_id=?";
